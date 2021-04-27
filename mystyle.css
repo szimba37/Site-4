@@ -1,0 +1,131 @@
+/*******************FONTS**********************/
+@font-face {
+  font-family: Karla;
+  src: url(fonts/Karla-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Antonio;
+  src: url(fonts/Antonio-Regular.ttf);
+}
+
+@font-face {
+  font-family: New;
+  src: url(fonts/NewTegomin-Regular.ttf);
+}
+/**********************************************/
+
+/*****SLIDER**************/
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+}
+
+/*****************************************/
+
+body{
+    display: flex;
+      justify-content: center;
+      background-image: url("https://64.media.tumblr.com/90d14bc3c54a3daabd04bc8e61cc295a/tumblr_inline_n258ovpRe81qhwjx8.gif");
+      background-repeat: repeat-x repeat-y;
+}
+
+h2 {
+  position: relative;
+  color: #FFF;
+  font-family: Antonio;
+  text-align: center;
+}
+
+#rcorners3 {
+  margin-left: 120px;
+  margin-top: 50px;
+  border-radius: 200px;
+  background: url("https://images.squarespace-cdn.com/content/v1/5f8f4ed243eb4f14e256fa7f/1603229032480-KHUZYUPSNFL11C5BZQE1/ke17ZwdGBToddI8pDm48kER3eAPu8-tBgM7S7Blegd9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIba5zaqyXfwzFMnITfsW9H3CEjncxAE4aERWxoyZJOKg/191CF191-EA9F-40B6-A9D5-FB632D6FAA5D.gif?format=500w");
+  padding: 20px;
+  width: 250px;
+  height: 250px;
+  background-position: center;
+}
+
+h1 {
+  font-family: Karla;
+  text-align: center;
+}
+
+#container{
+  position: relative;
+  top: 100px;
+  width: 530px;
+}
+
+#content-box{
+  background: #FFF;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-family: New;
+}
+
+ul {
+  position: relative;
+  margin-bottom: 13px;
+  list-style-type: none;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #C10000;
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: -2px;
+  margin-right: 5px;
+  border-radius: 10px;
+  font-family: New;
+}
+
+a:hover{
+  background: #FF4B4B;
+}
